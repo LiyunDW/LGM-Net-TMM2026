@@ -146,7 +146,7 @@ for epoch_i in range(start_epoch + 1, end_epoch + 1):
         loss_avg += loss.item()
     scheduler.step()
     loss_avg /= iter_num
-    log_data = '[%d/%d] Average loss: %f, lr: %7f, time cost: %.2fs.' % (
+    log_data = '[%d/%d] Average loss: %.f, lr: %.7f, time cost: %.2fs.' % (
         epoch_i, end_epoch, loss_avg, lr, time() - start_time)
     print(log_data)
     with open(log_path, 'a') as log_file:
