@@ -7,7 +7,7 @@
 ### Affiliations
 <sup>1</sup> School of Electronic and Information Engineering, Beijing Jiaotong University, China  
 <sup>2</sup> School of Automation and Intelligence, Beijing Jiaotong University, China  
-<sup>📧</sup> *Corresponding author: Yan Shen, Yanbing Li*
+<sup>📧</sup> *Corresponding author*
 
 ---
 
@@ -50,6 +50,7 @@ Put [CoCo2017 training set](https://cocodataset.org/#download) or others into da
 
 ## Acknowledgements
 This code is built on [FSOINet](https://github.com/cwjjun/fsoinet), [OCTUF](https://github.com/songjiechong/OCTUF), [PRL](https://github.com/Guaishou74851/PRL). We thank the authors for sharing their codes.
+
 
 
 
